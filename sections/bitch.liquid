@@ -1,3 +1,22 @@
 <h1>HELLO THIS IS MY BITCH ASS SECTION</h1>
 
-{% schema %} { } {% endschema %}
+{% schema %}
+
+{
+  "name": "bitch",
+  "settings": [
+    {
+      "id": "custom_text_title",
+      "type": "text",
+      "label": "Text box heading",
+      "default": "Title"
+    }, {
+      "id": "custom_text_body",
+      "type": "richtext",
+      "label": "Add custom text below",
+      "default": "<p>Add your text here</p>"
+    }
+  ]
+}
+
+{% endschema %}
