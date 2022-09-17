@@ -3003,6 +3003,7 @@ details-disclosure > details {
   color: #444;
   cursor: pointer;
   padding: 18px;
+  width: 100%;
   text-align: left;
   border-style: solid;
   border-width: 5px 0 0 0;
@@ -3016,6 +3017,7 @@ details-disclosure > details {
 }
 
 .panel {
+  width: 100%;
   padding: 0 18px;
   background-color: white;
   display: none;
