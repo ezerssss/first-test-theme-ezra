@@ -3010,6 +3010,7 @@ details-disclosure > details {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-width: 2px 0 0 0;
 }
 
 .active,
