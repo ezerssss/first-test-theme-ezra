@@ -1,7 +1,10 @@
 <h1 class="bitches">{{ section.settings.my_id }}</h1>
 {% for block in section.blocks %}
   <div class="accordion-container">
-    <button class="accordion">{{ block.settings.heading_text }}</button>
+    <button class="accordion">
+      <h3>{{ block.settings.heading_text }}</h3>
+      <p>+</p>
+    </button>
     <div class="panel">{{ block.settings.content_text }}</div>
   </div>
 {% endfor %}
