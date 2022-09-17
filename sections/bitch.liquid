@@ -1,6 +1,6 @@
 <h1 class="bitches">{{ section.settings.my_id }}</h1>
 {% for block in section.blocks %}
-  <button class="accordion">{{ block.settings.heading_text }}</button>
+  <div class="accordion">{{ block.settings.heading_text }}</div>
   <div class="panel">{{ block.settings.content_text }}</div>
 {% endfor %}
 
