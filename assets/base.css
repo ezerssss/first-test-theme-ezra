@@ -3011,6 +3011,7 @@ details-disclosure > details {
   transition: 0.4s;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .active,
