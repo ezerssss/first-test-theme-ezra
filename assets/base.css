@@ -3014,6 +3014,10 @@ details-disclosure > details {
   align-items: center;
 }
 
+.accordion:nth-last-child(2) {
+  background: red;
+}
+
 .active,
 .accordion:hover {
   background-color: #ccc;
