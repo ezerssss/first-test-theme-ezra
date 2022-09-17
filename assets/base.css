@@ -2996,6 +2996,8 @@ details-disclosure > details {
 .accordion-container {
   margin: auto;
   width: 80%;
+  display: flex;
+  justify-content: ;
 }
 
 .accordion {
