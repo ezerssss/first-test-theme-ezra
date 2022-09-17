@@ -54,6 +54,10 @@
 
 
 
+
+
+
+
 {{settings.type_body_font | font_face: font_display: 'swap'}}{{body_font_bold | font_face: font_display: 'swap'}}{{body_font_italic | font_face: font_display: 'swap'}}{{body_font_bold_italic | font_face: font_display: 'swap'}}{{settings.type_header_font | font_face: font_display: 'swap'}}:root {
   --font-body-family: {{settings.type_body_font.family}}, {{settings.type_body_font.fallback_families}};
   --font-body-style: {{settings.type_body_font.style}};
@@ -254,6 +258,10 @@ body {
 
 
 
+
+
+
+
 {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
@@ -290,8 +298,6 @@ body {
     <main class="content-for-layout focus-none" id="MainContent" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>
-
-    {% section 'bitch' %}
 
     {% section 'footer' %}
 
