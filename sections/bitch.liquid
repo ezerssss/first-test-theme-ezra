@@ -1,17 +1,13 @@
 <h1 class="bitches">{{ section.settings.my_id }}</h1>
 {% for block in section.blocks %}
   <div class="accordion-container">
-    <div style="border-style: solid;
-          border-width: 2px 0 0 0">
-
-      <button class="accordion">
-        <h2>
-          <b>{{ block.settings.heading_text }}</b>
-        </h2>
-        <div style="width: 20px">{% render 'icon-caret' %}</div>
-      </button>
-      <div class="panel">{{ block.settings.content_text }}</div>
-    </div>
+    <button class="accordion">
+      <h2>
+        <b>{{ block.settings.heading_text }}</b>
+      </h2>
+      <div style="width: 20px">{% render 'icon-caret' %}</div>
+    </button>
+    <div class="panel">{{ block.settings.content_text }}</div>
   </div>
 {% endfor %}
 
