@@ -1184,7 +1184,6 @@ for (i = 0; i < acc.length; i++) {
       panel.style.display = 'none';
     } else {
       panel.style.display = 'block';
-      acc[i].childNodes[2].style.transform = 'rotate(180deg)';
     }
   });
 }
