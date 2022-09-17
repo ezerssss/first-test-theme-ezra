@@ -209,33 +209,6 @@
         "settings": {
           "color_scheme": "background-1"
         }
-      },
-      "bitch": {
-        "type": "bitch",
-        "blocks": {
-          "6bd46d76-67e4-4963-80c3-f877c2568f60": {
-            "type": "accordion",
-            "settings": {
-              "heading_text": "Hello",
-              "content_text": "Hi there"
-            }
-          },
-          "35d209a7-769c-4d32-bc8a-22c93301ebdd": {
-            "type": "accordion",
-            "settings": {
-              "heading_text": "Wow",
-              "content_text": "YAHALOOO"
-            }
-          }
-        },
-        "block_order": [
-          "6bd46d76-67e4-4963-80c3-f877c2568f60",
-          "35d209a7-769c-4d32-bc8a-22c93301ebdd"
-        ],
-        "settings": {
-          "my_id": "",
-          "color": "#e41d1d"
-        }
       }
     },
     "content_for_index": [
