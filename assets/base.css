@@ -3018,7 +3018,7 @@ details-disclosure > details {
   background-color: #ccc;
 }
 
-#accordion-caret {
+.accordion-caret {
   width: 20px;
 }
 

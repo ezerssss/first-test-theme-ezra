@@ -1182,7 +1182,6 @@ for (i = 0; i < acc.length; i++) {
     var panel = this.nextElementSibling;
     if (panel.style.display === 'block') {
       panel.style.display = 'none';
-      acc[i].getElementById('accordion-caret').style.transform = 'rotate(180deg)';
     } else {
       panel.style.display = 'block';
     }
