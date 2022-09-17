@@ -2,7 +2,9 @@
 {% for block in section.blocks %}
   <div class="accordion-container">
     <button class="accordion">
-      <h3>{{ block.settings.heading_text }}</h3>
+      <h3>
+        <b>{{ block.settings.heading_text }}</b>
+      </h3>
       <div style="width: 20px">{% render 'icon-caret' %}</div>
     </button>
     <div class="panel">{{ block.settings.content_text }}</div>
