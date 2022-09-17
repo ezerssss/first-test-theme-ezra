@@ -3014,8 +3014,8 @@ details-disclosure > details {
   align-items: center;
 }
 
-.accordion:nth-last-child(n) {
-  background: red;
+.accordion:last-child {
+  border-width: 2px 0;
 }
 
 .active,
