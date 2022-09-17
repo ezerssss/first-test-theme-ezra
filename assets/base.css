@@ -3015,6 +3015,7 @@ details-disclosure > details {
 }
 
 .accordion:last-child {
+  border-style: solid;
   border-width: 2px 0;
 }
 
