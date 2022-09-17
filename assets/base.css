@@ -2994,6 +2994,5 @@ details-disclosure > details {
 }
 
 .accordion {
-  border-color: gray;
-  border-width: 5px 0px;
+  border-style: solid;
 }
