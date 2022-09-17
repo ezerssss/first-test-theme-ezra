@@ -3014,7 +3014,7 @@ details-disclosure > details {
   align-items: center;
 }
 
-.accordion:nth-last-child(2) {
+.accordion:nth-last-child(n) {
   background: red;
 }
 
