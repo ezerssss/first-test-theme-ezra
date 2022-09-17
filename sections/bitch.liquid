@@ -3,7 +3,7 @@
   <div class="accordion-container">
     <button class="accordion">
       <h3>{{ block.settings.heading_text }}</h3>
-      <p>+</p>
+      <p>{% render 'icon-caret' %}</p>
     </button>
     <div class="panel">{{ block.settings.content_text }}</div>
   </div>
