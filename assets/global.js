@@ -1182,7 +1182,7 @@ for (i = 0; i < acc.length; i++) {
     var panel = this.nextElementSibling;
     if (panel.style.display === 'block') {
       panel.style.display = 'none';
-      acc[1].childNodes[1].style.transform = '';
+      acc[1].childNodes[1].style.transform = 'rotate(180deg)';
     } else {
       panel.style.display = 'block';
     }
