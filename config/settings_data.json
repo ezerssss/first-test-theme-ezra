@@ -212,6 +212,18 @@
       },
       "bitch": {
         "type": "bitch",
+        "blocks": {
+          "6bd46d76-67e4-4963-80c3-f877c2568f60": {
+            "type": "accordion",
+            "settings": {
+              "heading_text": "Hello",
+              "content_text": "Hi there"
+            }
+          }
+        },
+        "block_order": [
+          "6bd46d76-67e4-4963-80c3-f877c2568f60"
+        ],
         "settings": {
           "my_id": "WAT THE FUCK",
           "color": "#e41d1d"
