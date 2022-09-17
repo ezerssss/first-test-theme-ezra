@@ -3020,6 +3020,8 @@ details-disclosure > details {
 
 .accordion:active,
 .accordion-caret {
+  width: 20px;
+  transform: rotate(180deg);
 }
 
 .panel {
